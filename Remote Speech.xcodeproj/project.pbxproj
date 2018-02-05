@@ -1,0 +1,1636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		870205031E118FF600E1D4A6 /* GSStartup.m in Sources */ = {isa = PBXBuildFile; fileRef = 870205021E118FF600E1D4A6 /* GSStartup.m */; };
+		8703EDB31E1C3E0B005496F5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8703EDB21E1C3E0A005496F5 /* Default-568h@2x.png */; };
+		8703EDB81E1C461F005496F5 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8703EDB61E1C461F005496F5 /* LoginViewController.m */; };
+		8703EDB91E1C461F005496F5 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8703EDB71E1C461F005496F5 /* LoginViewController.xib */; };
+		8703EDC21E1C5255005496F5 /* TargetTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8703EDC01E1C5255005496F5 /* TargetTableView.m */; };
+		8703EDC31E1C5255005496F5 /* TargetTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8703EDC11E1C5255005496F5 /* TargetTableView.xib */; };
+		8703EDC71E1C5963005496F5 /* TargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8703EDC51E1C5963005496F5 /* TargetViewController.m */; };
+		8703EDC81E1C5963005496F5 /* TargetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8703EDC61E1C5963005496F5 /* TargetViewController.xib */; };
+		8703EDCC1E1CBACE005496F5 /* AddTargetView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8703EDCA1E1CBACE005496F5 /* AddTargetView.m */; };
+		8703EDCD1E1CBACE005496F5 /* AddTargetView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8703EDCB1E1CBACE005496F5 /* AddTargetView.xib */; };
+		8707882C20083F7600B3E5DD /* sending.png in Resources */ = {isa = PBXBuildFile; fileRef = 8707882B20083F7600B3E5DD /* sending.png */; };
+		870788302008420900B3E5DD /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8707882E2008420900B3E5DD /* ProgressViewController.m */; };
+		870788312008420900B3E5DD /* ProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8707882F2008420900B3E5DD /* ProgressViewController.xib */; };
+		870788382008577500B3E5DD /* AudioSelectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 870788362008577500B3E5DD /* AudioSelectionView.m */; };
+		870788392008577500B3E5DD /* AudioSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 870788372008577500B3E5DD /* AudioSelectionView.xib */; };
+		8707883F2008674100B3E5DD /* pausebutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8707883E2008674100B3E5DD /* pausebutton.png */; };
+		870788412008674500B3E5DD /* playbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 870788402008674500B3E5DD /* playbutton.png */; };
+		871BCD391E0AF7710006A1CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 871BCD381E0AF7710006A1CA /* Cocoa.framework */; };
+		871BCD431E0AF7710006A1CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 871BCD411E0AF7710006A1CA /* InfoPlist.strings */; };
+		871BCD451E0AF7710006A1CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 871BCD441E0AF7710006A1CA /* main.m */; };
+		871BCD491E0AF7710006A1CA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 871BCD471E0AF7710006A1CA /* Credits.rtf */; };
+		871BCD4C1E0AF7710006A1CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 871BCD4B1E0AF7710006A1CA /* AppDelegate.m */; };
+		871BCD511E0AF7710006A1CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 871BCD501E0AF7710006A1CA /* Images.xcassets */; };
+		871BCD581E0AF7710006A1CA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 871BCD571E0AF7710006A1CA /* XCTest.framework */; };
+		871BCD591E0AF7710006A1CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 871BCD381E0AF7710006A1CA /* Cocoa.framework */; };
+		871BCD611E0AF7710006A1CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 871BCD5F1E0AF7710006A1CA /* InfoPlist.strings */; };
+		871BCD631E0AF7710006A1CA /* Remote_SpeechTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 871BCD621E0AF7710006A1CA /* Remote_SpeechTests.m */; };
+		871BCD6E1E0AF7930006A1CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 871BCD6C1E0AF7930006A1CA /* MainMenu.xib */; };
+		871EEBAB1E1B1B4E00DC8954 /* iPadAddTargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 871EEBA91E1B1B4E00DC8954 /* iPadAddTargetViewController.m */; };
+		871EEBAC1E1B1B4E00DC8954 /* iPadAddTargetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 871EEBAA1E1B1B4E00DC8954 /* iPadAddTargetViewController.xib */; };
+		87228DA9200888B40008A013 /* pausebutton-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 87228DA8200888B40008A013 /* pausebutton-dark.png */; };
+		87228DAB200888B80008A013 /* playbutton-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 87228DAA200888B80008A013 /* playbutton-dark.png */; };
+		8726961A1E15A87800EB3BE2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872696191E15A87800EB3BE2 /* Media.xcassets */; };
+		8726961B1E15A8B400EB3BE2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 872696191E15A87800EB3BE2 /* Media.xcassets */; };
+		8726961D1E15A8E400EB3BE2 /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8726961C1E15A8E400EB3BE2 /* app-icon.png */; };
+		872696211E15B1F800EB3BE2 /* FirstRunView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726961F1E15B1F800EB3BE2 /* FirstRunView.m */; };
+		872696221E15B1F800EB3BE2 /* FirstRunView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 872696201E15B1F800EB3BE2 /* FirstRunView.xib */; };
+		872696241E15B71500EB3BE2 /* tut1.png in Resources */ = {isa = PBXBuildFile; fileRef = 872696231E15B71500EB3BE2 /* tut1.png */; };
+		872696261E15B87500EB3BE2 /* tut2.png in Resources */ = {isa = PBXBuildFile; fileRef = 872696251E15B87500EB3BE2 /* tut2.png */; };
+		872696281E15C42D00EB3BE2 /* tut3.png in Resources */ = {isa = PBXBuildFile; fileRef = 872696271E15C42D00EB3BE2 /* tut3.png */; };
+		873067F31E1B672A006248E8 /* 29x29.png in Resources */ = {isa = PBXBuildFile; fileRef = 873067E61E1B672A006248E8 /* 29x29.png */; };
+		873067F41E1B672A006248E8 /* 40x40.png in Resources */ = {isa = PBXBuildFile; fileRef = 873067E71E1B672A006248E8 /* 40x40.png */; };
+		873067F51E1B672A006248E8 /* 50x50.png in Resources */ = {isa = PBXBuildFile; fileRef = 873067E81E1B672A006248E8 /* 50x50.png */; };
+		873067F61E1B672A006248E8 /* 57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 873067E91E1B672A006248E8 /* 57x57.png */; };
+		873067F71E1B672A006248E8 /* 58x58.png in Resources */ = {isa = PBXBuildFile; fileRef = 873067EA1E1B672A006248E8 /* 58x58.png */; };
+		873067F81E1B672A006248E8 /* 72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 873067EB1E1B672A006248E8 /* 72x72.png */; };
+		873067F91E1B672A006248E8 /* 76x76.png in Resources */ = {isa = PBXBuildFile; fileRef = 873067EC1E1B672A006248E8 /* 76x76.png */; };
+		873067FA1E1B672A006248E8 /* 80x80.png in Resources */ = {isa = PBXBuildFile; fileRef = 873067ED1E1B672A006248E8 /* 80x80.png */; };
+		873067FB1E1B672A006248E8 /* 100x100.png in Resources */ = {isa = PBXBuildFile; fileRef = 873067EE1E1B672A006248E8 /* 100x100.png */; };
+		873067FC1E1B672A006248E8 /* 114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 873067EF1E1B672A006248E8 /* 114x114.png */; };
+		873067FD1E1B672A006248E8 /* 120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 873067F01E1B672A006248E8 /* 120x120.png */; };
+		873067FE1E1B672A006248E8 /* 144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 873067F11E1B672A006248E8 /* 144x144.png */; };
+		873067FF1E1B672A006248E8 /* 152x152.png in Resources */ = {isa = PBXBuildFile; fileRef = 873067F21E1B672A006248E8 /* 152x152.png */; };
+		8736FDFA1ECFDB36002A1BE4 /* NoMenuTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8736FDF91ECFDB36002A1BE4 /* NoMenuTextField.m */; };
+		873C264E1E18BB4E00C92E52 /* iPadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873C264C1E18BB4E00C92E52 /* iPadTableViewController.m */; };
+		873C264F1E18BB4E00C92E52 /* iPadTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873C264D1E18BB4E00C92E52 /* iPadTableViewController.xib */; };
+		873C26531E18BB6A00C92E52 /* iPadTargetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873C26511E18BB6A00C92E52 /* iPadTargetViewController.m */; };
+		873C26541E18BB6A00C92E52 /* iPadTargetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873C26521E18BB6A00C92E52 /* iPadTargetViewController.xib */; };
+		873E398F1E3D8E5100A4E269 /* UpdatePreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E398D1E3D8E5100A4E269 /* UpdatePreferences.m */; };
+		873E39901E3D8E5100A4E269 /* UpdatePreferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 873E398E1E3D8E5100A4E269 /* UpdatePreferences.xib */; };
+		873E39931E3D98DB00A4E269 /* PreferencesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E39921E3D98DB00A4E269 /* PreferencesHandler.m */; };
+		874F06321E3BEB4500AB0F1F /* UpdateController.m in Sources */ = {isa = PBXBuildFile; fileRef = 874F06311E3BEB4500AB0F1F /* UpdateController.m */; };
+		8752CE281F006E1A002FE740 /* SettingsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8752CE271F006E1A002FE740 /* SettingsTableCell.m */; };
+		87580E131E3453EA009AA13C /* PreferencesWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 87580E111E3453EA009AA13C /* PreferencesWindow.m */; };
+		876008CA1EE86766008D5E59 /* PreferencesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 876008C91EE86766008D5E59 /* PreferencesHandler.m */; };
+		876008D41EE88A45008D5E59 /* SettingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 876008D21EE88A45008D5E59 /* SettingsView.m */; };
+		876008D51EE88A45008D5E59 /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 876008D31EE88A45008D5E59 /* SettingsView.xib */; };
+		8760E8DF1E19CA6100895F84 /* iPadTargetSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8760E8DD1E19CA6100895F84 /* iPadTargetSettingsViewController.m */; };
+		8760E8E01E19CA6100895F84 /* iPadTargetSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8760E8DE1E19CA6100895F84 /* iPadTargetSettingsViewController.xib */; };
+		8760E8E41E19FF7300895F84 /* RemoteSpeechController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8760E8E31E19FF7300895F84 /* RemoteSpeechController.m */; };
+		8760E8E91E1A03CA00895F84 /* iPadLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8760E8E71E1A03CA00895F84 /* iPadLoginView.m */; };
+		8760E8EA1E1A03CA00895F84 /* iPadLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8760E8E81E1A03CA00895F84 /* iPadLoginView.xib */; };
+		8760E8EC1E1A053D00895F84 /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8760E8EB1E1A053D00895F84 /* app-icon.png */; };
+		877735CC1E102EAD0049B724 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 871BCD381E0AF7710006A1CA /* Cocoa.framework */; };
+		877735D21E102EAD0049B724 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 877735D01E102EAD0049B724 /* InfoPlist.strings */; };
+		877735D41E102EAD0049B724 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 877735D31E102EAD0049B724 /* main.m */; };
+		877735D81E102EAD0049B724 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 877735D61E102EAD0049B724 /* Credits.rtf */; };
+		877735DB1E102EAD0049B724 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 877735DA1E102EAD0049B724 /* AppDelegate.m */; };
+		877735E01E102EAD0049B724 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877735DF1E102EAD0049B724 /* Images.xcassets */; };
+		877735E61E102EAD0049B724 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 871BCD571E0AF7710006A1CA /* XCTest.framework */; };
+		877735E71E102EAD0049B724 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 871BCD381E0AF7710006A1CA /* Cocoa.framework */; };
+		877735EF1E102EAD0049B724 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 877735ED1E102EAD0049B724 /* InfoPlist.strings */; };
+		877735F11E102EAD0049B724 /* Remote_Speech_TargetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 877735F01E102EAD0049B724 /* Remote_Speech_TargetTests.m */; };
+		877735FA1E1031180049B724 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 877735F81E1031180049B724 /* MainMenu.xib */; };
+		87786B551E14CEE400A6D97A /* CustomTargetWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 87786B531E14CEE400A6D97A /* CustomTargetWindow.m */; };
+		87786B561E14CEE400A6D97A /* CustomTargetWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87786B541E14CEE400A6D97A /* CustomTargetWindow.xib */; };
+		87786B5A1E14D2E700A6D97A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 87786B591E14D2E700A6D97A /* background.png */; };
+		8786EDB71E3C3F15008A3A41 /* UpdaterWindows.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8786EDB61E3C3F15008A3A41 /* UpdaterWindows.xib */; };
+		87A0AF0E1E20B42C00ADCE3A /* ConfirmationHUD.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87A0AF0C1E20B42C00ADCE3A /* ConfirmationHUD.xib */; };
+		87A0FD431EE8E94300C47F2F /* gear-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 87A0FD421EE8E94300C47F2F /* gear-icon.png */; };
+		87B305BB2002D86C00FDC388 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87B305BA2002D86C00FDC388 /* AVFoundation.framework */; };
+		87D87DC01E1772FF00D5229A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E467981E10DB6000B73DFB /* Foundation.framework */; };
+		87D87DC11E1772FF00D5229A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D87D7E1E176E8E00D5229A /* CoreGraphics.framework */; };
+		87D87DC21E1772FF00D5229A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D87D801E176E8E00D5229A /* UIKit.framework */; };
+		87D87DC81E1772FF00D5229A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87D87DC61E1772FF00D5229A /* InfoPlist.strings */; };
+		87D87DCA1E1772FF00D5229A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D87DC91E1772FF00D5229A /* main.m */; };
+		87D87DCE1E1772FF00D5229A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D87DCD1E1772FF00D5229A /* AppDelegate.m */; };
+		87D87DD61E17730000D5229A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 871BCD571E0AF7710006A1CA /* XCTest.framework */; };
+		87D87DD71E17730000D5229A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E467981E10DB6000B73DFB /* Foundation.framework */; };
+		87D87DD81E17730000D5229A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87D87D801E176E8E00D5229A /* UIKit.framework */; };
+		87D87DE01E17730000D5229A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87D87DDE1E17730000D5229A /* InfoPlist.strings */; };
+		87D87DE21E17730000D5229A /* Remote_Speech_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D87DE11E17730000D5229A /* Remote_Speech_iOSTests.m */; };
+		87E467991E10DB6000B73DFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87E467981E10DB6000B73DFB /* Foundation.framework */; };
+		87E4679C1E10DB6000B73DFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87E4679B1E10DB6000B73DFB /* main.m */; };
+		87E467A01E10DB6000B73DFB /* relaunch.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 87E4679F1E10DB6000B73DFB /* relaunch.1 */; };
+		87F6A0641ED26EAD00E8AA73 /* Red_sphere.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F6A0631ED26EAD00E8AA73 /* Red_sphere.png */; };
+		87F6A0661ED26EDA00E8AA73 /* Green_sphere.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F6A0651ED26EDA00E8AA73 /* Green_sphere.png */; };
+		87F6A0691ED26F9000E8AA73 /* TargetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87F6A0681ED26F9000E8AA73 /* TargetCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		871BCD5A1E0AF7710006A1CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 871BCD2D1E0AF7710006A1CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 871BCD341E0AF7710006A1CA;
+			remoteInfo = "Remote Speech";
+		};
+		877735E81E102EAD0049B724 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 871BCD2D1E0AF7710006A1CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 877735CA1E102EAD0049B724;
+			remoteInfo = "Remote Speech Target";
+		};
+		87D87DD91E17730000D5229A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 871BCD2D1E0AF7710006A1CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87D87DBE1E1772FF00D5229A;
+			remoteInfo = "Remote Speech iOS";
+		};
+		87E467A51E10DDD000B73DFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 871BCD2D1E0AF7710006A1CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87E467961E10DB6000B73DFB;
+			remoteInfo = relaunch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		87E467951E10DB6000B73DFB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				87E467A01E10DB6000B73DFB /* relaunch.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		870205011E118FF600E1D4A6 /* GSStartup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSStartup.h; sourceTree = "<group>"; };
+		870205021E118FF600E1D4A6 /* GSStartup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSStartup.m; sourceTree = "<group>"; };
+		8703EDB21E1C3E0A005496F5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8703EDB51E1C461F005496F5 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8703EDB61E1C461F005496F5 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8703EDB71E1C461F005496F5 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		8703EDBF1E1C5255005496F5 /* TargetTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetTableView.h; sourceTree = "<group>"; };
+		8703EDC01E1C5255005496F5 /* TargetTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetTableView.m; sourceTree = "<group>"; };
+		8703EDC11E1C5255005496F5 /* TargetTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TargetTableView.xib; sourceTree = "<group>"; };
+		8703EDC41E1C5963005496F5 /* TargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetViewController.h; sourceTree = "<group>"; };
+		8703EDC51E1C5963005496F5 /* TargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetViewController.m; sourceTree = "<group>"; };
+		8703EDC61E1C5963005496F5 /* TargetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TargetViewController.xib; sourceTree = "<group>"; };
+		8703EDC91E1CBACE005496F5 /* AddTargetView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTargetView.h; sourceTree = "<group>"; };
+		8703EDCA1E1CBACE005496F5 /* AddTargetView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTargetView.m; sourceTree = "<group>"; };
+		8703EDCB1E1CBACE005496F5 /* AddTargetView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddTargetView.xib; sourceTree = "<group>"; };
+		8707882B20083F7600B3E5DD /* sending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sending.png; sourceTree = "<group>"; };
+		8707882D2008420900B3E5DD /* ProgressViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		8707882E2008420900B3E5DD /* ProgressViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		8707882F2008420900B3E5DD /* ProgressViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgressViewController.xib; sourceTree = "<group>"; };
+		870788352008577400B3E5DD /* AudioSelectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioSelectionView.h; sourceTree = "<group>"; };
+		870788362008577500B3E5DD /* AudioSelectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioSelectionView.m; sourceTree = "<group>"; };
+		870788372008577500B3E5DD /* AudioSelectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioSelectionView.xib; sourceTree = "<group>"; };
+		8707883E2008674100B3E5DD /* pausebutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pausebutton.png; sourceTree = "<group>"; };
+		870788402008674500B3E5DD /* playbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playbutton.png; sourceTree = "<group>"; };
+		871BCD351E0AF7710006A1CA /* Remote Speech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remote Speech.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		871BCD381E0AF7710006A1CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		871BCD3B1E0AF7710006A1CA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		871BCD3C1E0AF7710006A1CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		871BCD3D1E0AF7710006A1CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		871BCD401E0AF7710006A1CA /* Remote Speech-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Remote Speech-Info.plist"; sourceTree = "<group>"; };
+		871BCD421E0AF7710006A1CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		871BCD441E0AF7710006A1CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		871BCD461E0AF7710006A1CA /* Remote Speech-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Remote Speech-Prefix.pch"; sourceTree = "<group>"; };
+		871BCD481E0AF7710006A1CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		871BCD4A1E0AF7710006A1CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		871BCD4B1E0AF7710006A1CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; wrapsLines = 1; };
+		871BCD501E0AF7710006A1CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		871BCD561E0AF7710006A1CA /* Remote SpeechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remote SpeechTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		871BCD571E0AF7710006A1CA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		871BCD5E1E0AF7710006A1CA /* Remote SpeechTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Remote SpeechTests-Info.plist"; sourceTree = "<group>"; };
+		871BCD601E0AF7710006A1CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		871BCD621E0AF7710006A1CA /* Remote_SpeechTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Remote_SpeechTests.m; sourceTree = "<group>"; };
+		871BCD6F1E0AF7990006A1CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		871EEBA81E1B1B4E00DC8954 /* iPadAddTargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadAddTargetViewController.h; sourceTree = "<group>"; };
+		871EEBA91E1B1B4E00DC8954 /* iPadAddTargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadAddTargetViewController.m; sourceTree = "<group>"; };
+		871EEBAA1E1B1B4E00DC8954 /* iPadAddTargetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadAddTargetViewController.xib; sourceTree = "<group>"; };
+		87228DA8200888B40008A013 /* pausebutton-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pausebutton-dark.png"; sourceTree = "<group>"; };
+		87228DAA200888B80008A013 /* playbutton-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "playbutton-dark.png"; sourceTree = "<group>"; };
+		872696191E15A87800EB3BE2 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		8726961C1E15A8E400EB3BE2 /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
+		8726961E1E15B1F800EB3BE2 /* FirstRunView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstRunView.h; sourceTree = "<group>"; };
+		8726961F1E15B1F800EB3BE2 /* FirstRunView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstRunView.m; sourceTree = "<group>"; };
+		872696201E15B1F800EB3BE2 /* FirstRunView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstRunView.xib; sourceTree = "<group>"; };
+		872696231E15B71500EB3BE2 /* tut1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tut1.png; sourceTree = "<group>"; };
+		872696251E15B87500EB3BE2 /* tut2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tut2.png; sourceTree = "<group>"; };
+		872696271E15C42D00EB3BE2 /* tut3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tut3.png; sourceTree = "<group>"; };
+		873067E61E1B672A006248E8 /* 29x29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29x29.png; sourceTree = "<group>"; };
+		873067E71E1B672A006248E8 /* 40x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 40x40.png; sourceTree = "<group>"; };
+		873067E81E1B672A006248E8 /* 50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50x50.png; sourceTree = "<group>"; };
+		873067E91E1B672A006248E8 /* 57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 57x57.png; sourceTree = "<group>"; };
+		873067EA1E1B672A006248E8 /* 58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58x58.png; sourceTree = "<group>"; };
+		873067EB1E1B672A006248E8 /* 72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72x72.png; sourceTree = "<group>"; };
+		873067EC1E1B672A006248E8 /* 76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 76x76.png; sourceTree = "<group>"; };
+		873067ED1E1B672A006248E8 /* 80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80x80.png; sourceTree = "<group>"; };
+		873067EE1E1B672A006248E8 /* 100x100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 100x100.png; sourceTree = "<group>"; };
+		873067EF1E1B672A006248E8 /* 114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114x114.png; sourceTree = "<group>"; };
+		873067F01E1B672A006248E8 /* 120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120x120.png; sourceTree = "<group>"; };
+		873067F11E1B672A006248E8 /* 144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144x144.png; sourceTree = "<group>"; };
+		873067F21E1B672A006248E8 /* 152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 152x152.png; sourceTree = "<group>"; };
+		8736FDF81ECFDB36002A1BE4 /* NoMenuTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoMenuTextField.h; sourceTree = "<group>"; };
+		8736FDF91ECFDB36002A1BE4 /* NoMenuTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoMenuTextField.m; sourceTree = "<group>"; };
+		873C264B1E18BB4E00C92E52 /* iPadTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadTableViewController.h; sourceTree = "<group>"; };
+		873C264C1E18BB4E00C92E52 /* iPadTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadTableViewController.m; sourceTree = "<group>"; };
+		873C264D1E18BB4E00C92E52 /* iPadTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadTableViewController.xib; sourceTree = "<group>"; };
+		873C26501E18BB6A00C92E52 /* iPadTargetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadTargetViewController.h; sourceTree = "<group>"; };
+		873C26511E18BB6A00C92E52 /* iPadTargetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadTargetViewController.m; sourceTree = "<group>"; };
+		873C26521E18BB6A00C92E52 /* iPadTargetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadTargetViewController.xib; sourceTree = "<group>"; };
+		873E398C1E3D8E5100A4E269 /* UpdatePreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdatePreferences.h; sourceTree = "<group>"; };
+		873E398D1E3D8E5100A4E269 /* UpdatePreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdatePreferences.m; sourceTree = "<group>"; };
+		873E398E1E3D8E5100A4E269 /* UpdatePreferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdatePreferences.xib; sourceTree = "<group>"; };
+		873E39911E3D98DB00A4E269 /* PreferencesHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesHandler.h; sourceTree = "<group>"; };
+		873E39921E3D98DB00A4E269 /* PreferencesHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesHandler.m; sourceTree = "<group>"; };
+		874F06301E3BEB4500AB0F1F /* UpdateController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateController.h; sourceTree = "<group>"; };
+		874F06311E3BEB4500AB0F1F /* UpdateController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateController.m; sourceTree = "<group>"; };
+		8752CE261F006E1A002FE740 /* SettingsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableCell.h; sourceTree = "<group>"; };
+		8752CE271F006E1A002FE740 /* SettingsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableCell.m; sourceTree = "<group>"; };
+		87580E101E3453EA009AA13C /* PreferencesWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesWindow.h; sourceTree = "<group>"; };
+		87580E111E3453EA009AA13C /* PreferencesWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesWindow.m; sourceTree = "<group>"; };
+		876008C81EE86766008D5E59 /* PreferencesHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesHandler.h; sourceTree = "<group>"; };
+		876008C91EE86766008D5E59 /* PreferencesHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesHandler.m; sourceTree = "<group>"; };
+		876008D11EE88A45008D5E59 /* SettingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsView.h; sourceTree = "<group>"; };
+		876008D21EE88A45008D5E59 /* SettingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsView.m; sourceTree = "<group>"; };
+		876008D31EE88A45008D5E59 /* SettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		8760E8DC1E19CA6100895F84 /* iPadTargetSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadTargetSettingsViewController.h; sourceTree = "<group>"; };
+		8760E8DD1E19CA6100895F84 /* iPadTargetSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadTargetSettingsViewController.m; sourceTree = "<group>"; };
+		8760E8DE1E19CA6100895F84 /* iPadTargetSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadTargetSettingsViewController.xib; sourceTree = "<group>"; };
+		8760E8E21E19FF7300895F84 /* RemoteSpeechController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteSpeechController.h; sourceTree = "<group>"; };
+		8760E8E31E19FF7300895F84 /* RemoteSpeechController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteSpeechController.m; sourceTree = "<group>"; };
+		8760E8E61E1A03CA00895F84 /* iPadLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadLoginView.h; sourceTree = "<group>"; };
+		8760E8E71E1A03CA00895F84 /* iPadLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iPadLoginView.m; sourceTree = "<group>"; };
+		8760E8E81E1A03CA00895F84 /* iPadLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPadLoginView.xib; sourceTree = "<group>"; };
+		8760E8EB1E1A053D00895F84 /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
+		877735CB1E102EAD0049B724 /* Remote Speech Target.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remote Speech Target.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		877735CF1E102EAD0049B724 /* Remote Speech Target-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Remote Speech Target-Info.plist"; sourceTree = "<group>"; };
+		877735D11E102EAD0049B724 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		877735D31E102EAD0049B724 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		877735D51E102EAD0049B724 /* Remote Speech Target-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Remote Speech Target-Prefix.pch"; sourceTree = "<group>"; };
+		877735D71E102EAD0049B724 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		877735D91E102EAD0049B724 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		877735DA1E102EAD0049B724 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; wrapsLines = 1; };
+		877735DF1E102EAD0049B724 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		877735E51E102EAD0049B724 /* Remote Speech TargetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remote Speech TargetTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		877735EC1E102EAD0049B724 /* Remote Speech TargetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Remote Speech TargetTests-Info.plist"; sourceTree = "<group>"; };
+		877735EE1E102EAD0049B724 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		877735F01E102EAD0049B724 /* Remote_Speech_TargetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Remote_Speech_TargetTests.m; sourceTree = "<group>"; };
+		877735FB1E1031230049B724 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		87786B521E14CEE400A6D97A /* CustomTargetWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTargetWindow.h; sourceTree = "<group>"; };
+		87786B531E14CEE400A6D97A /* CustomTargetWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTargetWindow.m; sourceTree = "<group>"; };
+		87786B541E14CEE400A6D97A /* CustomTargetWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTargetWindow.xib; sourceTree = "<group>"; };
+		87786B591E14D2E700A6D97A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		8786EDB61E3C3F15008A3A41 /* UpdaterWindows.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UpdaterWindows.xib; sourceTree = "<group>"; };
+		87A0AF0C1E20B42C00ADCE3A /* ConfirmationHUD.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConfirmationHUD.xib; sourceTree = "<group>"; };
+		87A0FD421EE8E94300C47F2F /* gear-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gear-icon.png"; sourceTree = "<group>"; };
+		87B305BA2002D86C00FDC388 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		87D87D7E1E176E8E00D5229A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		87D87D801E176E8E00D5229A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		87D87DBF1E1772FF00D5229A /* Remote Speech iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remote Speech iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D87DC51E1772FF00D5229A /* Remote Speech iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Remote Speech iOS-Info.plist"; sourceTree = "<group>"; };
+		87D87DC71E1772FF00D5229A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87D87DC91E1772FF00D5229A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87D87DCB1E1772FF00D5229A /* Remote Speech iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Remote Speech iOS-Prefix.pch"; sourceTree = "<group>"; };
+		87D87DCC1E1772FF00D5229A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87D87DCD1E1772FF00D5229A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87D87DCF1E1772FF00D5229A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		87D87DD51E1772FF00D5229A /* Remote Speech iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Remote Speech iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87D87DDD1E17730000D5229A /* Remote Speech iOSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Remote Speech iOSTests-Info.plist"; sourceTree = "<group>"; };
+		87D87DDF1E17730000D5229A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		87D87DE11E17730000D5229A /* Remote_Speech_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Remote_Speech_iOSTests.m; sourceTree = "<group>"; };
+		87E467971E10DB6000B73DFB /* relaunch */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = relaunch; sourceTree = BUILT_PRODUCTS_DIR; };
+		87E467981E10DB6000B73DFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		87E4679B1E10DB6000B73DFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87E4679E1E10DB6000B73DFB /* relaunch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "relaunch-Prefix.pch"; sourceTree = "<group>"; };
+		87E4679F1E10DB6000B73DFB /* relaunch.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = relaunch.1; sourceTree = "<group>"; };
+		87F6A0631ED26EAD00E8AA73 /* Red_sphere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Red_sphere.png; sourceTree = "<group>"; };
+		87F6A0651ED26EDA00E8AA73 /* Green_sphere.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green_sphere.png; sourceTree = "<group>"; };
+		87F6A0671ED26F9000E8AA73 /* TargetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TargetCell.h; sourceTree = "<group>"; };
+		87F6A0681ED26F9000E8AA73 /* TargetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TargetCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		871BCD321E0AF7710006A1CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871BCD391E0AF7710006A1CA /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871BCD531E0AF7710006A1CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871BCD591E0AF7710006A1CA /* Cocoa.framework in Frameworks */,
+				871BCD581E0AF7710006A1CA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877735C81E102EAD0049B724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B305BB2002D86C00FDC388 /* AVFoundation.framework in Frameworks */,
+				877735CC1E102EAD0049B724 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877735E21E102EAD0049B724 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877735E71E102EAD0049B724 /* Cocoa.framework in Frameworks */,
+				877735E61E102EAD0049B724 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D87DBC1E1772FF00D5229A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D87DC11E1772FF00D5229A /* CoreGraphics.framework in Frameworks */,
+				87D87DC21E1772FF00D5229A /* UIKit.framework in Frameworks */,
+				87D87DC01E1772FF00D5229A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D87DD21E1772FF00D5229A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D87DD61E17730000D5229A /* XCTest.framework in Frameworks */,
+				87D87DD81E17730000D5229A /* UIKit.framework in Frameworks */,
+				87D87DD71E17730000D5229A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E467941E10DB6000B73DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E467991E10DB6000B73DFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8703EDB41E1C4301005496F5 /* iPhone View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8703EDB51E1C461F005496F5 /* LoginViewController.h */,
+				8703EDB61E1C461F005496F5 /* LoginViewController.m */,
+				8703EDB71E1C461F005496F5 /* LoginViewController.xib */,
+				8703EDBF1E1C5255005496F5 /* TargetTableView.h */,
+				8703EDC01E1C5255005496F5 /* TargetTableView.m */,
+				8703EDC11E1C5255005496F5 /* TargetTableView.xib */,
+				8703EDC41E1C5963005496F5 /* TargetViewController.h */,
+				8703EDC51E1C5963005496F5 /* TargetViewController.m */,
+				8703EDC61E1C5963005496F5 /* TargetViewController.xib */,
+				8703EDC91E1CBACE005496F5 /* AddTargetView.h */,
+				8703EDCA1E1CBACE005496F5 /* AddTargetView.m */,
+				8703EDCB1E1CBACE005496F5 /* AddTargetView.xib */,
+				876008D11EE88A45008D5E59 /* SettingsView.h */,
+				876008D21EE88A45008D5E59 /* SettingsView.m */,
+				876008D31EE88A45008D5E59 /* SettingsView.xib */,
+				8752CE261F006E1A002FE740 /* SettingsTableCell.h */,
+				8752CE271F006E1A002FE740 /* SettingsTableCell.m */,
+				870788352008577400B3E5DD /* AudioSelectionView.h */,
+				870788362008577500B3E5DD /* AudioSelectionView.m */,
+				870788372008577500B3E5DD /* AudioSelectionView.xib */,
+			);
+			name = "iPhone View Controllers";
+			sourceTree = "<group>";
+		};
+		871BCD2C1E0AF7710006A1CA = {
+			isa = PBXGroup;
+			children = (
+				8703EDB21E1C3E0A005496F5 /* Default-568h@2x.png */,
+				872696191E15A87800EB3BE2 /* Media.xcassets */,
+				871BCD3E1E0AF7710006A1CA /* Remote Speech */,
+				871BCD5C1E0AF7710006A1CA /* Remote SpeechTests */,
+				877735CD1E102EAD0049B724 /* Remote Speech Target */,
+				877735EA1E102EAD0049B724 /* Remote Speech TargetTests */,
+				87E4679A1E10DB6000B73DFB /* relaunch */,
+				87D87DC31E1772FF00D5229A /* Remote Speech iOS */,
+				87D87DDB1E17730000D5229A /* Remote Speech iOSTests */,
+				871BCD371E0AF7710006A1CA /* Frameworks */,
+				871BCD361E0AF7710006A1CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		871BCD361E0AF7710006A1CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				871BCD351E0AF7710006A1CA /* Remote Speech.app */,
+				871BCD561E0AF7710006A1CA /* Remote SpeechTests.xctest */,
+				877735CB1E102EAD0049B724 /* Remote Speech Target.app */,
+				877735E51E102EAD0049B724 /* Remote Speech TargetTests.xctest */,
+				87E467971E10DB6000B73DFB /* relaunch */,
+				87D87DBF1E1772FF00D5229A /* Remote Speech iOS.app */,
+				87D87DD51E1772FF00D5229A /* Remote Speech iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		871BCD371E0AF7710006A1CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87B305BA2002D86C00FDC388 /* AVFoundation.framework */,
+				871BCD381E0AF7710006A1CA /* Cocoa.framework */,
+				871BCD571E0AF7710006A1CA /* XCTest.framework */,
+				87E467981E10DB6000B73DFB /* Foundation.framework */,
+				87D87D7E1E176E8E00D5229A /* CoreGraphics.framework */,
+				87D87D801E176E8E00D5229A /* UIKit.framework */,
+				871BCD3A1E0AF7710006A1CA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		871BCD3A1E0AF7710006A1CA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				871BCD3B1E0AF7710006A1CA /* AppKit.framework */,
+				871BCD3C1E0AF7710006A1CA /* CoreData.framework */,
+				871BCD3D1E0AF7710006A1CA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		871BCD3E1E0AF7710006A1CA /* Remote Speech */ = {
+			isa = PBXGroup;
+			children = (
+				874F062D1E3BEAF000AB0F1F /* Views */,
+				874F062F1E3BEB1F00AB0F1F /* Classes */,
+				874F062E1E3BEB0900AB0F1F /* Resources */,
+				871BCD501E0AF7710006A1CA /* Images.xcassets */,
+				871BCD3F1E0AF7710006A1CA /* Supporting Files */,
+			);
+			path = "Remote Speech";
+			sourceTree = "<group>";
+		};
+		871BCD3F1E0AF7710006A1CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				871BCD401E0AF7710006A1CA /* Remote Speech-Info.plist */,
+				871BCD411E0AF7710006A1CA /* InfoPlist.strings */,
+				871BCD441E0AF7710006A1CA /* main.m */,
+				871BCD461E0AF7710006A1CA /* Remote Speech-Prefix.pch */,
+				871BCD471E0AF7710006A1CA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		871BCD5C1E0AF7710006A1CA /* Remote SpeechTests */ = {
+			isa = PBXGroup;
+			children = (
+				871BCD621E0AF7710006A1CA /* Remote_SpeechTests.m */,
+				871BCD5D1E0AF7710006A1CA /* Supporting Files */,
+			);
+			path = "Remote SpeechTests";
+			sourceTree = "<group>";
+		};
+		871BCD5D1E0AF7710006A1CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				871BCD5E1E0AF7710006A1CA /* Remote SpeechTests-Info.plist */,
+				871BCD5F1E0AF7710006A1CA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		873067C51E1B626A006248E8 /* App Icon */ = {
+			isa = PBXGroup;
+			children = (
+				873067E61E1B672A006248E8 /* 29x29.png */,
+				873067E71E1B672A006248E8 /* 40x40.png */,
+				873067E81E1B672A006248E8 /* 50x50.png */,
+				873067E91E1B672A006248E8 /* 57x57.png */,
+				873067EA1E1B672A006248E8 /* 58x58.png */,
+				873067EB1E1B672A006248E8 /* 72x72.png */,
+				873067EC1E1B672A006248E8 /* 76x76.png */,
+				873067ED1E1B672A006248E8 /* 80x80.png */,
+				873067EE1E1B672A006248E8 /* 100x100.png */,
+				873067EF1E1B672A006248E8 /* 114x114.png */,
+				873067F01E1B672A006248E8 /* 120x120.png */,
+				873067F11E1B672A006248E8 /* 144x144.png */,
+				873067F21E1B672A006248E8 /* 152x152.png */,
+			);
+			name = "App Icon";
+			sourceTree = "<group>";
+		};
+		873E398B1E3D8E2E00A4E269 /* PreferencesModules */ = {
+			isa = PBXGroup;
+			children = (
+				873E398C1E3D8E5100A4E269 /* UpdatePreferences.h */,
+				873E398D1E3D8E5100A4E269 /* UpdatePreferences.m */,
+				873E398E1E3D8E5100A4E269 /* UpdatePreferences.xib */,
+			);
+			name = PreferencesModules;
+			sourceTree = "<group>";
+		};
+		874F062D1E3BEAF000AB0F1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				871BCD4A1E0AF7710006A1CA /* AppDelegate.h */,
+				871BCD4B1E0AF7710006A1CA /* AppDelegate.m */,
+				871BCD6C1E0AF7930006A1CA /* MainMenu.xib */,
+				87786B521E14CEE400A6D97A /* CustomTargetWindow.h */,
+				87786B531E14CEE400A6D97A /* CustomTargetWindow.m */,
+				87786B541E14CEE400A6D97A /* CustomTargetWindow.xib */,
+				8726961E1E15B1F800EB3BE2 /* FirstRunView.h */,
+				8726961F1E15B1F800EB3BE2 /* FirstRunView.m */,
+				872696201E15B1F800EB3BE2 /* FirstRunView.xib */,
+				87580E101E3453EA009AA13C /* PreferencesWindow.h */,
+				87580E111E3453EA009AA13C /* PreferencesWindow.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		874F062E1E3BEB0900AB0F1F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87786B591E14D2E700A6D97A /* background.png */,
+				8726961C1E15A8E400EB3BE2 /* app-icon.png */,
+				872696231E15B71500EB3BE2 /* tut1.png */,
+				872696251E15B87500EB3BE2 /* tut2.png */,
+				872696271E15C42D00EB3BE2 /* tut3.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		874F062F1E3BEB1F00AB0F1F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				874F06301E3BEB4500AB0F1F /* UpdateController.h */,
+				874F06311E3BEB4500AB0F1F /* UpdateController.m */,
+				8786EDB61E3C3F15008A3A41 /* UpdaterWindows.xib */,
+				873E39911E3D98DB00A4E269 /* PreferencesHandler.h */,
+				873E39921E3D98DB00A4E269 /* PreferencesHandler.m */,
+				873E398B1E3D8E2E00A4E269 /* PreferencesModules */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8760E8E11E19FF4D00895F84 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8760E8E21E19FF7300895F84 /* RemoteSpeechController.h */,
+				8760E8E31E19FF7300895F84 /* RemoteSpeechController.m */,
+				8736FDF81ECFDB36002A1BE4 /* NoMenuTextField.h */,
+				8736FDF91ECFDB36002A1BE4 /* NoMenuTextField.m */,
+				87F6A0671ED26F9000E8AA73 /* TargetCell.h */,
+				87F6A0681ED26F9000E8AA73 /* TargetCell.m */,
+				876008C81EE86766008D5E59 /* PreferencesHandler.h */,
+				876008C91EE86766008D5E59 /* PreferencesHandler.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		8760E8E51E1A03A200895F84 /* iPad View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				873C264B1E18BB4E00C92E52 /* iPadTableViewController.h */,
+				873C264C1E18BB4E00C92E52 /* iPadTableViewController.m */,
+				873C264D1E18BB4E00C92E52 /* iPadTableViewController.xib */,
+				873C26501E18BB6A00C92E52 /* iPadTargetViewController.h */,
+				873C26511E18BB6A00C92E52 /* iPadTargetViewController.m */,
+				873C26521E18BB6A00C92E52 /* iPadTargetViewController.xib */,
+				8760E8DC1E19CA6100895F84 /* iPadTargetSettingsViewController.h */,
+				8760E8DD1E19CA6100895F84 /* iPadTargetSettingsViewController.m */,
+				8760E8DE1E19CA6100895F84 /* iPadTargetSettingsViewController.xib */,
+				8760E8E61E1A03CA00895F84 /* iPadLoginView.h */,
+				8760E8E71E1A03CA00895F84 /* iPadLoginView.m */,
+				8760E8E81E1A03CA00895F84 /* iPadLoginView.xib */,
+				871EEBA81E1B1B4E00DC8954 /* iPadAddTargetViewController.h */,
+				871EEBA91E1B1B4E00DC8954 /* iPadAddTargetViewController.m */,
+				871EEBAA1E1B1B4E00DC8954 /* iPadAddTargetViewController.xib */,
+			);
+			name = "iPad View Controllers";
+			sourceTree = "<group>";
+		};
+		877735CD1E102EAD0049B724 /* Remote Speech Target */ = {
+			isa = PBXGroup;
+			children = (
+				877735D91E102EAD0049B724 /* AppDelegate.h */,
+				877735DA1E102EAD0049B724 /* AppDelegate.m */,
+				870205011E118FF600E1D4A6 /* GSStartup.h */,
+				870205021E118FF600E1D4A6 /* GSStartup.m */,
+				877735F81E1031180049B724 /* MainMenu.xib */,
+				877735DF1E102EAD0049B724 /* Images.xcassets */,
+				877735CE1E102EAD0049B724 /* Supporting Files */,
+			);
+			path = "Remote Speech Target";
+			sourceTree = "<group>";
+		};
+		877735CE1E102EAD0049B724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				877735CF1E102EAD0049B724 /* Remote Speech Target-Info.plist */,
+				877735D01E102EAD0049B724 /* InfoPlist.strings */,
+				877735D31E102EAD0049B724 /* main.m */,
+				877735D51E102EAD0049B724 /* Remote Speech Target-Prefix.pch */,
+				877735D61E102EAD0049B724 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		877735EA1E102EAD0049B724 /* Remote Speech TargetTests */ = {
+			isa = PBXGroup;
+			children = (
+				877735F01E102EAD0049B724 /* Remote_Speech_TargetTests.m */,
+				877735EB1E102EAD0049B724 /* Supporting Files */,
+			);
+			path = "Remote Speech TargetTests";
+			sourceTree = "<group>";
+		};
+		877735EB1E102EAD0049B724 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				877735EC1E102EAD0049B724 /* Remote Speech TargetTests-Info.plist */,
+				877735ED1E102EAD0049B724 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87A0AF0F1E20CD5A00ADCE3A /* Universal VIew Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				87A0AF0C1E20B42C00ADCE3A /* ConfirmationHUD.xib */,
+				8707882D2008420900B3E5DD /* ProgressViewController.h */,
+				8707882E2008420900B3E5DD /* ProgressViewController.m */,
+				8707882F2008420900B3E5DD /* ProgressViewController.xib */,
+			);
+			name = "Universal VIew Controllers";
+			sourceTree = "<group>";
+		};
+		87D87DC31E1772FF00D5229A /* Remote Speech iOS */ = {
+			isa = PBXGroup;
+			children = (
+				87D87DCC1E1772FF00D5229A /* AppDelegate.h */,
+				87D87DCD1E1772FF00D5229A /* AppDelegate.m */,
+				87F6A0541ED25D6400E8AA73 /* Resources */,
+				873067C51E1B626A006248E8 /* App Icon */,
+				8760E8E51E1A03A200895F84 /* iPad View Controllers */,
+				87A0AF0F1E20CD5A00ADCE3A /* Universal VIew Controllers */,
+				8703EDB41E1C4301005496F5 /* iPhone View Controllers */,
+				8760E8E11E19FF4D00895F84 /* Classes */,
+				87D87DCF1E1772FF00D5229A /* Images.xcassets */,
+				87D87DC41E1772FF00D5229A /* Supporting Files */,
+			);
+			path = "Remote Speech iOS";
+			sourceTree = "<group>";
+		};
+		87D87DC41E1772FF00D5229A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87D87DC51E1772FF00D5229A /* Remote Speech iOS-Info.plist */,
+				87D87DC61E1772FF00D5229A /* InfoPlist.strings */,
+				87D87DC91E1772FF00D5229A /* main.m */,
+				87D87DCB1E1772FF00D5229A /* Remote Speech iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87D87DDB1E17730000D5229A /* Remote Speech iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				87D87DE11E17730000D5229A /* Remote_Speech_iOSTests.m */,
+				87D87DDC1E17730000D5229A /* Supporting Files */,
+			);
+			path = "Remote Speech iOSTests";
+			sourceTree = "<group>";
+		};
+		87D87DDC1E17730000D5229A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87D87DDD1E17730000D5229A /* Remote Speech iOSTests-Info.plist */,
+				87D87DDE1E17730000D5229A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87E4679A1E10DB6000B73DFB /* relaunch */ = {
+			isa = PBXGroup;
+			children = (
+				87E4679B1E10DB6000B73DFB /* main.m */,
+				87E4679F1E10DB6000B73DFB /* relaunch.1 */,
+				87E4679D1E10DB6000B73DFB /* Supporting Files */,
+			);
+			path = relaunch;
+			sourceTree = "<group>";
+		};
+		87E4679D1E10DB6000B73DFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87E4679E1E10DB6000B73DFB /* relaunch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87F6A0541ED25D6400E8AA73 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8760E8EB1E1A053D00895F84 /* app-icon.png */,
+				87F6A0631ED26EAD00E8AA73 /* Red_sphere.png */,
+				87F6A0651ED26EDA00E8AA73 /* Green_sphere.png */,
+				87A0FD421EE8E94300C47F2F /* gear-icon.png */,
+				8707882B20083F7600B3E5DD /* sending.png */,
+				870788402008674500B3E5DD /* playbutton.png */,
+				8707883E2008674100B3E5DD /* pausebutton.png */,
+				87228DA8200888B40008A013 /* pausebutton-dark.png */,
+				87228DAA200888B80008A013 /* playbutton-dark.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		871BCD341E0AF7710006A1CA /* Remote Speech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871BCD661E0AF7710006A1CA /* Build configuration list for PBXNativeTarget "Remote Speech" */;
+			buildPhases = (
+				871BCD311E0AF7710006A1CA /* Sources */,
+				871BCD321E0AF7710006A1CA /* Frameworks */,
+				871BCD331E0AF7710006A1CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Remote Speech";
+			productName = "Remote Speech";
+			productReference = 871BCD351E0AF7710006A1CA /* Remote Speech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		871BCD551E0AF7710006A1CA /* Remote SpeechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 871BCD691E0AF7710006A1CA /* Build configuration list for PBXNativeTarget "Remote SpeechTests" */;
+			buildPhases = (
+				871BCD521E0AF7710006A1CA /* Sources */,
+				871BCD531E0AF7710006A1CA /* Frameworks */,
+				871BCD541E0AF7710006A1CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				871BCD5B1E0AF7710006A1CA /* PBXTargetDependency */,
+			);
+			name = "Remote SpeechTests";
+			productName = "Remote SpeechTests";
+			productReference = 871BCD561E0AF7710006A1CA /* Remote SpeechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		877735CA1E102EAD0049B724 /* Remote Speech Target */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877735F61E102EAD0049B724 /* Build configuration list for PBXNativeTarget "Remote Speech Target" */;
+			buildPhases = (
+				877735C71E102EAD0049B724 /* Sources */,
+				877735C81E102EAD0049B724 /* Frameworks */,
+				877735C91E102EAD0049B724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87E467A61E10DDD000B73DFB /* PBXTargetDependency */,
+			);
+			name = "Remote Speech Target";
+			productName = "Remote Speech Target";
+			productReference = 877735CB1E102EAD0049B724 /* Remote Speech Target.app */;
+			productType = "com.apple.product-type.application";
+		};
+		877735E41E102EAD0049B724 /* Remote Speech TargetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877735F71E102EAD0049B724 /* Build configuration list for PBXNativeTarget "Remote Speech TargetTests" */;
+			buildPhases = (
+				877735E11E102EAD0049B724 /* Sources */,
+				877735E21E102EAD0049B724 /* Frameworks */,
+				877735E31E102EAD0049B724 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				877735E91E102EAD0049B724 /* PBXTargetDependency */,
+			);
+			name = "Remote Speech TargetTests";
+			productName = "Remote Speech TargetTests";
+			productReference = 877735E51E102EAD0049B724 /* Remote Speech TargetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87D87DBE1E1772FF00D5229A /* Remote Speech iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D87DE31E17730000D5229A /* Build configuration list for PBXNativeTarget "Remote Speech iOS" */;
+			buildPhases = (
+				87D87DBB1E1772FF00D5229A /* Sources */,
+				87D87DBC1E1772FF00D5229A /* Frameworks */,
+				87D87DBD1E1772FF00D5229A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Remote Speech iOS";
+			productName = "Remote Speech iOS";
+			productReference = 87D87DBF1E1772FF00D5229A /* Remote Speech iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87D87DD41E1772FF00D5229A /* Remote Speech iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87D87DE61E17730000D5229A /* Build configuration list for PBXNativeTarget "Remote Speech iOSTests" */;
+			buildPhases = (
+				87D87DD11E1772FF00D5229A /* Sources */,
+				87D87DD21E1772FF00D5229A /* Frameworks */,
+				87D87DD31E1772FF00D5229A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87D87DDA1E17730000D5229A /* PBXTargetDependency */,
+			);
+			name = "Remote Speech iOSTests";
+			productName = "Remote Speech iOSTests";
+			productReference = 87D87DD51E1772FF00D5229A /* Remote Speech iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87E467961E10DB6000B73DFB /* relaunch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87E467A31E10DB6000B73DFB /* Build configuration list for PBXNativeTarget "relaunch" */;
+			buildPhases = (
+				87E467931E10DB6000B73DFB /* Sources */,
+				87E467941E10DB6000B73DFB /* Frameworks */,
+				87E467951E10DB6000B73DFB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = relaunch;
+			productName = relaunch;
+			productReference = 87E467971E10DB6000B73DFB /* relaunch */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		871BCD2D1E0AF7710006A1CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Got 'Em Apps";
+				TargetAttributes = {
+					871BCD551E0AF7710006A1CA = {
+						TestTargetID = 871BCD341E0AF7710006A1CA;
+					};
+					877735E41E102EAD0049B724 = {
+						TestTargetID = 871BCD341E0AF7710006A1CA;
+					};
+					87D87DBE1E1772FF00D5229A = {
+						DevelopmentTeam = C9R8PL7T6L;
+					};
+					87D87DD41E1772FF00D5229A = {
+						TestTargetID = 871BCD341E0AF7710006A1CA;
+					};
+				};
+			};
+			buildConfigurationList = 871BCD301E0AF7710006A1CA /* Build configuration list for PBXProject "Remote Speech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 871BCD2C1E0AF7710006A1CA;
+			productRefGroup = 871BCD361E0AF7710006A1CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				871BCD341E0AF7710006A1CA /* Remote Speech */,
+				871BCD551E0AF7710006A1CA /* Remote SpeechTests */,
+				877735CA1E102EAD0049B724 /* Remote Speech Target */,
+				877735E41E102EAD0049B724 /* Remote Speech TargetTests */,
+				87E467961E10DB6000B73DFB /* relaunch */,
+				87D87DBE1E1772FF00D5229A /* Remote Speech iOS */,
+				87D87DD41E1772FF00D5229A /* Remote Speech iOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		871BCD331E0AF7710006A1CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871BCD431E0AF7710006A1CA /* InfoPlist.strings in Resources */,
+				872696241E15B71500EB3BE2 /* tut1.png in Resources */,
+				87786B5A1E14D2E700A6D97A /* background.png in Resources */,
+				8726961A1E15A87800EB3BE2 /* Media.xcassets in Resources */,
+				872696261E15B87500EB3BE2 /* tut2.png in Resources */,
+				873E39901E3D8E5100A4E269 /* UpdatePreferences.xib in Resources */,
+				871BCD511E0AF7710006A1CA /* Images.xcassets in Resources */,
+				871BCD491E0AF7710006A1CA /* Credits.rtf in Resources */,
+				872696221E15B1F800EB3BE2 /* FirstRunView.xib in Resources */,
+				87786B561E14CEE400A6D97A /* CustomTargetWindow.xib in Resources */,
+				8726961D1E15A8E400EB3BE2 /* app-icon.png in Resources */,
+				8786EDB71E3C3F15008A3A41 /* UpdaterWindows.xib in Resources */,
+				871BCD6E1E0AF7930006A1CA /* MainMenu.xib in Resources */,
+				872696281E15C42D00EB3BE2 /* tut3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871BCD541E0AF7710006A1CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871BCD611E0AF7710006A1CA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877735C91E102EAD0049B724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8726961B1E15A8B400EB3BE2 /* Media.xcassets in Resources */,
+				877735D21E102EAD0049B724 /* InfoPlist.strings in Resources */,
+				877735E01E102EAD0049B724 /* Images.xcassets in Resources */,
+				877735D81E102EAD0049B724 /* Credits.rtf in Resources */,
+				877735FA1E1031180049B724 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877735E31E102EAD0049B724 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877735EF1E102EAD0049B724 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D87DBD1E1772FF00D5229A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873067FE1E1B672A006248E8 /* 144x144.png in Resources */,
+				8760E8EA1E1A03CA00895F84 /* iPadLoginView.xib in Resources */,
+				8703EDC31E1C5255005496F5 /* TargetTableView.xib in Resources */,
+				8703EDB91E1C461F005496F5 /* LoginViewController.xib in Resources */,
+				87228DA9200888B40008A013 /* pausebutton-dark.png in Resources */,
+				87A0AF0E1E20B42C00ADCE3A /* ConfirmationHUD.xib in Resources */,
+				8760E8E01E19CA6100895F84 /* iPadTargetSettingsViewController.xib in Resources */,
+				870788412008674500B3E5DD /* playbutton.png in Resources */,
+				87228DAB200888B80008A013 /* playbutton-dark.png in Resources */,
+				873067FC1E1B672A006248E8 /* 114x114.png in Resources */,
+				873067F51E1B672A006248E8 /* 50x50.png in Resources */,
+				8703EDC81E1C5963005496F5 /* TargetViewController.xib in Resources */,
+				87F6A0641ED26EAD00E8AA73 /* Red_sphere.png in Resources */,
+				87F6A0661ED26EDA00E8AA73 /* Green_sphere.png in Resources */,
+				8703EDB31E1C3E0B005496F5 /* Default-568h@2x.png in Resources */,
+				870788392008577500B3E5DD /* AudioSelectionView.xib in Resources */,
+				87D87DC81E1772FF00D5229A /* InfoPlist.strings in Resources */,
+				87A0FD431EE8E94300C47F2F /* gear-icon.png in Resources */,
+				873067FA1E1B672A006248E8 /* 80x80.png in Resources */,
+				873067F61E1B672A006248E8 /* 57x57.png in Resources */,
+				873067FD1E1B672A006248E8 /* 120x120.png in Resources */,
+				8703EDCD1E1CBACE005496F5 /* AddTargetView.xib in Resources */,
+				873C26541E18BB6A00C92E52 /* iPadTargetViewController.xib in Resources */,
+				876008D51EE88A45008D5E59 /* SettingsView.xib in Resources */,
+				873067F81E1B672A006248E8 /* 72x72.png in Resources */,
+				873067F71E1B672A006248E8 /* 58x58.png in Resources */,
+				873067FF1E1B672A006248E8 /* 152x152.png in Resources */,
+				873067F31E1B672A006248E8 /* 29x29.png in Resources */,
+				873C264F1E18BB4E00C92E52 /* iPadTableViewController.xib in Resources */,
+				873067F41E1B672A006248E8 /* 40x40.png in Resources */,
+				8707882C20083F7600B3E5DD /* sending.png in Resources */,
+				8707883F2008674100B3E5DD /* pausebutton.png in Resources */,
+				871EEBAC1E1B1B4E00DC8954 /* iPadAddTargetViewController.xib in Resources */,
+				873067FB1E1B672A006248E8 /* 100x100.png in Resources */,
+				8760E8EC1E1A053D00895F84 /* app-icon.png in Resources */,
+				873067F91E1B672A006248E8 /* 76x76.png in Resources */,
+				870788312008420900B3E5DD /* ProgressViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D87DD31E1772FF00D5229A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D87DE01E17730000D5229A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		871BCD311E0AF7710006A1CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87786B551E14CEE400A6D97A /* CustomTargetWindow.m in Sources */,
+				87580E131E3453EA009AA13C /* PreferencesWindow.m in Sources */,
+				872696211E15B1F800EB3BE2 /* FirstRunView.m in Sources */,
+				871BCD4C1E0AF7710006A1CA /* AppDelegate.m in Sources */,
+				873E398F1E3D8E5100A4E269 /* UpdatePreferences.m in Sources */,
+				874F06321E3BEB4500AB0F1F /* UpdateController.m in Sources */,
+				871BCD451E0AF7710006A1CA /* main.m in Sources */,
+				873E39931E3D98DB00A4E269 /* PreferencesHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		871BCD521E0AF7710006A1CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				871BCD631E0AF7710006A1CA /* Remote_SpeechTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877735C71E102EAD0049B724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870205031E118FF600E1D4A6 /* GSStartup.m in Sources */,
+				877735DB1E102EAD0049B724 /* AppDelegate.m in Sources */,
+				877735D41E102EAD0049B724 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		877735E11E102EAD0049B724 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877735F11E102EAD0049B724 /* Remote_Speech_TargetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D87DBB1E1772FF00D5229A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8760E8E91E1A03CA00895F84 /* iPadLoginView.m in Sources */,
+				870788302008420900B3E5DD /* ProgressViewController.m in Sources */,
+				87D87DCE1E1772FF00D5229A /* AppDelegate.m in Sources */,
+				8703EDC21E1C5255005496F5 /* TargetTableView.m in Sources */,
+				873C26531E18BB6A00C92E52 /* iPadTargetViewController.m in Sources */,
+				873C264E1E18BB4E00C92E52 /* iPadTableViewController.m in Sources */,
+				876008D41EE88A45008D5E59 /* SettingsView.m in Sources */,
+				8760E8DF1E19CA6100895F84 /* iPadTargetSettingsViewController.m in Sources */,
+				870788382008577500B3E5DD /* AudioSelectionView.m in Sources */,
+				876008CA1EE86766008D5E59 /* PreferencesHandler.m in Sources */,
+				87F6A0691ED26F9000E8AA73 /* TargetCell.m in Sources */,
+				8703EDC71E1C5963005496F5 /* TargetViewController.m in Sources */,
+				8703EDB81E1C461F005496F5 /* LoginViewController.m in Sources */,
+				8752CE281F006E1A002FE740 /* SettingsTableCell.m in Sources */,
+				871EEBAB1E1B1B4E00DC8954 /* iPadAddTargetViewController.m in Sources */,
+				8703EDCC1E1CBACE005496F5 /* AddTargetView.m in Sources */,
+				87D87DCA1E1772FF00D5229A /* main.m in Sources */,
+				8760E8E41E19FF7300895F84 /* RemoteSpeechController.m in Sources */,
+				8736FDFA1ECFDB36002A1BE4 /* NoMenuTextField.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D87DD11E1772FF00D5229A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87D87DE21E17730000D5229A /* Remote_Speech_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E467931E10DB6000B73DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E4679C1E10DB6000B73DFB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		871BCD5B1E0AF7710006A1CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 871BCD341E0AF7710006A1CA /* Remote Speech */;
+			targetProxy = 871BCD5A1E0AF7710006A1CA /* PBXContainerItemProxy */;
+		};
+		877735E91E102EAD0049B724 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 877735CA1E102EAD0049B724 /* Remote Speech Target */;
+			targetProxy = 877735E81E102EAD0049B724 /* PBXContainerItemProxy */;
+		};
+		87D87DDA1E17730000D5229A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87D87DBE1E1772FF00D5229A /* Remote Speech iOS */;
+			targetProxy = 87D87DD91E17730000D5229A /* PBXContainerItemProxy */;
+		};
+		87E467A61E10DDD000B73DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87E467961E10DB6000B73DFB /* relaunch */;
+			targetProxy = 87E467A51E10DDD000B73DFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		871BCD411E0AF7710006A1CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				871BCD421E0AF7710006A1CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		871BCD471E0AF7710006A1CA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				871BCD481E0AF7710006A1CA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		871BCD5F1E0AF7710006A1CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				871BCD601E0AF7710006A1CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		871BCD6C1E0AF7930006A1CA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				871BCD6F1E0AF7990006A1CA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		877735D01E102EAD0049B724 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877735D11E102EAD0049B724 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		877735D61E102EAD0049B724 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877735D71E102EAD0049B724 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		877735ED1E102EAD0049B724 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877735EE1E102EAD0049B724 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		877735F81E1031180049B724 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				877735FB1E1031230049B724 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		87D87DC61E1772FF00D5229A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87D87DC71E1772FF00D5229A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		87D87DDE1E17730000D5229A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87D87DDF1E17730000D5229A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		871BCD641E0AF7710006A1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		871BCD651E0AF7710006A1CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		871BCD671E0AF7710006A1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Speech/Remote Speech-Prefix.pch";
+				INFOPLIST_FILE = "Remote Speech/Remote Speech-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		871BCD681E0AF7710006A1CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Speech/Remote Speech-Prefix.pch";
+				INFOPLIST_FILE = "Remote Speech/Remote Speech-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		871BCD6A1E0AF7710006A1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Remote Speech.app/Contents/MacOS/Remote Speech";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Speech/Remote Speech-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Remote SpeechTests/Remote SpeechTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		871BCD6B1E0AF7710006A1CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Remote Speech.app/Contents/MacOS/Remote Speech";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Speech/Remote Speech-Prefix.pch";
+				INFOPLIST_FILE = "Remote SpeechTests/Remote SpeechTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		877735F21E102EAD0049B724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Speech Target/Remote Speech Target-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Remote Speech Target/Remote Speech Target-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		877735F31E102EAD0049B724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Speech Target/Remote Speech Target-Prefix.pch";
+				INFOPLIST_FILE = "Remote Speech Target/Remote Speech Target-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		877735F41E102EAD0049B724 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Remote Speech.app/Contents/MacOS/Remote Speech";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Speech Target/Remote Speech Target-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Remote Speech TargetTests/Remote Speech TargetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		877735F51E102EAD0049B724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Remote Speech.app/Contents/MacOS/Remote Speech";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Speech Target/Remote Speech Target-Prefix.pch";
+				INFOPLIST_FILE = "Remote Speech TargetTests/Remote Speech TargetTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		87D87DE41E17730000D5229A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Speech iOS/Remote Speech iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Remote Speech iOS/Remote Speech iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		87D87DE51E17730000D5229A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Speech iOS/Remote Speech iOS-Prefix.pch";
+				INFOPLIST_FILE = "Remote Speech iOS/Remote Speech iOS-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		87D87DE71E17730000D5229A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Remote Speech.app/Contents/MacOS/Remote Speech";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Speech iOS/Remote Speech iOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Remote Speech iOSTests/Remote Speech iOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		87D87DE81E17730000D5229A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Remote Speech.app/Contents/MacOS/Remote Speech";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Remote Speech iOS/Remote Speech iOS-Prefix.pch";
+				INFOPLIST_FILE = "Remote Speech iOSTests/Remote Speech iOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		87E467A11E10DB6000B73DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "relaunch/relaunch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87E467A21E10DB6000B73DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "relaunch/relaunch-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		871BCD301E0AF7710006A1CA /* Build configuration list for PBXProject "Remote Speech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871BCD641E0AF7710006A1CA /* Debug */,
+				871BCD651E0AF7710006A1CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871BCD661E0AF7710006A1CA /* Build configuration list for PBXNativeTarget "Remote Speech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871BCD671E0AF7710006A1CA /* Debug */,
+				871BCD681E0AF7710006A1CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		871BCD691E0AF7710006A1CA /* Build configuration list for PBXNativeTarget "Remote SpeechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				871BCD6A1E0AF7710006A1CA /* Debug */,
+				871BCD6B1E0AF7710006A1CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877735F61E102EAD0049B724 /* Build configuration list for PBXNativeTarget "Remote Speech Target" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877735F21E102EAD0049B724 /* Debug */,
+				877735F31E102EAD0049B724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877735F71E102EAD0049B724 /* Build configuration list for PBXNativeTarget "Remote Speech TargetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				877735F41E102EAD0049B724 /* Debug */,
+				877735F51E102EAD0049B724 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D87DE31E17730000D5229A /* Build configuration list for PBXNativeTarget "Remote Speech iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D87DE41E17730000D5229A /* Debug */,
+				87D87DE51E17730000D5229A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87D87DE61E17730000D5229A /* Build configuration list for PBXNativeTarget "Remote Speech iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87D87DE71E17730000D5229A /* Debug */,
+				87D87DE81E17730000D5229A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87E467A31E10DB6000B73DFB /* Build configuration list for PBXNativeTarget "relaunch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87E467A11E10DB6000B73DFB /* Debug */,
+				87E467A21E10DB6000B73DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 871BCD2D1E0AF7710006A1CA /* Project object */;
+}

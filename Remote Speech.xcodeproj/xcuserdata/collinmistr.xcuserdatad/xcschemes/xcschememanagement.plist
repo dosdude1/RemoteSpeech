@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Remote Speech Target.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Remote Speech iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Remote Speech.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>relaunch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8718239E1EC78E0300F6981B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>871BCD341E0AF7710006A1CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>871BCD551E0AF7710006A1CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>877735CA1E102EAD0049B724</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>877735E41E102EAD0049B724</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87D87D7B1E176E8E00D5229A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87D87D9C1E176E8E00D5229A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87D87DBE1E1772FF00D5229A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87D87DD41E1772FF00D5229A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>87E467961E10DB6000B73DFB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
