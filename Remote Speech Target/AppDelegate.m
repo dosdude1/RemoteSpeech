@@ -27,7 +27,7 @@
     audioFileSize = 0;
     appPath=[[NSBundle mainBundle] bundlePath];
     settingsPlistPath=[[[NSBundle mainBundle]resourcePath]stringByAppendingPathComponent:@"settings.plist"];
-    [[[NSWorkspace sharedWorkspace] notificationCenter] addObserver:self selector:@selector(receiveSleepNotification:) name:NSWorkspaceScreensDidSleepNotification object:nil];
+    [[[NSWorkspace sharedWorkspace] notificationCenter] addObserver:self selector:@selector(receiveSleepNotification:) name:NSWorkspaceWillSleepNotification object:nil];
     [[[NSWorkspace sharedWorkspace] notificationCenter] addObserver:self selector:@selector(receiveWakeNotification:) name:NSWorkspaceDidWakeNotification object:nil];
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSApplicationSupportDirectory, NSUserDomainMask, YES);
     applicationSupportDirectory = [[paths firstObject] stringByAppendingPathComponent:@"Remote Speech"];
@@ -324,11 +324,11 @@
     {
         if (!isHidden)
         {
-            NSAlert *alert = [[NSAlert alloc] init];
+            /*NSAlert *alert = [[NSAlert alloc] init];
             [alert setMessageText:@"Cannot Connect to Server"];
             [alert setInformativeText:@"The Remote Speech Server is unreachable. Check your Internet connection and try again."];
             [alert addButtonWithTitle:@"OK"];
-            [alert runModal];
+            [alert runModal];*/
         }
         [self startConnectionTimer];
     }
