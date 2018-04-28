@@ -3,7 +3,7 @@
 //  Remote Speech iOS
 //
 //  Created by Collin Mistr on 12/31/16.
-//  Copyright (c) 2016 Got 'Em Apps. All rights reserved.
+//  Copyright (c) 2018 dosdude1 Apps. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

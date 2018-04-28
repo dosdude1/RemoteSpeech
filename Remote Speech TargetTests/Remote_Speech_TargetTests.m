@@ -3,7 +3,7 @@
 //  Remote Speech TargetTests
 //
 //  Created by Collin Mistr on 12/25/16.
-//  Copyright (c) 2016 Got 'Em Apps. All rights reserved.
+//  Copyright (c) 2018 dosdude1 Apps. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>

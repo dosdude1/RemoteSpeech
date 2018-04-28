@@ -3,7 +3,7 @@
 //  Remote Speech
 //
 //  Created by Collin Mistr on 1/28/17.
-//  Copyright (c) 2017 Got 'Em Apps. All rights reserved.
+//  Copyright (c) 2018 dosdude1 Apps. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
